@@ -1,0 +1,45 @@
+.section6 {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fafafa;
+    width: 100%;
+    height: 450px;
+    
+}
+
+.section6 h1{
+    font-size: 50px;
+    color: rgb(19, 109, 109);
+}
+
+.section6 p {
+    font-size: 20px;
+    color: rgb(76, 71, 71);
+    padding-bottom: 30px;
+}
+
+.form {
+    display: flex;
+}
+
+.section6 .email {
+    height: 40px;
+    width: 400px;
+}
+
+.section6 .number {
+    height: 40px;
+}
+
+.section6 .button {
+    height: 45px;
+    width: 190px;
+    background-color: aqua;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
