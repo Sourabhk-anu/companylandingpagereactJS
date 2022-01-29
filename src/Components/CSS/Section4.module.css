@@ -11,3 +11,12 @@
     color: white;
     font-weight: normal;
 }
+
+
+/* ///////MEDIA QUERIES/////// */
+
+@media (max-width: 426px) {
+    .section4 {
+        font-size: 15px;
+    }
+}

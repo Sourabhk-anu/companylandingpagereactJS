@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Section2.module.css';
+import styles from './CSS/Section2.module.css';
 import client1 from '../images/image5.png';
 import client2 from '../images/image2.png';
 import client3 from '../images/image3.png';

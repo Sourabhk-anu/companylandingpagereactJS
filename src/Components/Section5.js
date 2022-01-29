@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Section5.module.css';
+import styles from './CSS/Section5.module.css';
 import living from '../images/image6.jpg';
 import kitchen from '../images/image7.jpg';
 import bathroom from '../images/image8.jpg';

@@ -1,16 +1,20 @@
 import React from 'react';
-import styles from './Navbar.module.css';
+import styles from './CSS/Navbar.module.css';
 
 const Navbar = () => {
   return <div>
-      <nav className={styles.navbar}>
-          <ul>
-              <li className={styles.cleanly}>Cleanly</li>
-              <li className={styles.book}><a href="#">Book a Cleaning</a></li>
+      <header className={styles.header}>
+            <div className={styles.logo}>Cleanly</div>
+            <input className={styles.menubtn} type="checkbox" id="menu-btn" />
+            <label className={styles.menuicon} for="menu-btn"><span className={styles.navicon}></span></label>
+            <ul className={styles.menu}>
+                <div className={styles.listitem}>
+                <li><a href="#">How it works?</a></li>
               <li><a href="#">Our Services</a></li>
-              <li><a href="#">How it works?</a></li>
-          </ul>
-      </nav>
+              <li className={styles.book}><a href="#">Book a Cleaning</a></li>
+                </div>
+            </ul>
+          </header>
   </div>;
 };
 

@@ -61,3 +61,29 @@
     margin: 0;
     padding: 0;
 }
+
+
+/* ///////MEDIA QUERIES/////// */
+
+
+@media (min-width: 768px){
+    .content div {
+        width: 180px;
+    }
+}
+
+@media (max-width: 426px){
+    .section3 h1 {
+        font-size: 30px;
+    }
+
+    .section3 p {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .paragraph {
+        display: flex;
+        flex-direction: column;
+    }
+}

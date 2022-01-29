@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Section6.module.css';
+import styles from './CSS/Section6.module.css';
 
 const Section6 = () => {
   return <div className={styles.section6}>

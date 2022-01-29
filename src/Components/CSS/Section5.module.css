@@ -1,0 +1,108 @@
+.section5 div {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+.img1 {
+    width: 50%;
+    height: 425px;
+    opacity: 0.5;
+}
+
+.img2 {
+    position: absolute;
+    width: 50%;
+    left: 50%;
+    height: 425px;
+    opacity: 0.5;
+}
+
+.img1:hover,.img2:hover {
+    opacity: 1;
+}
+
+.livingbath {
+    position: absolute;
+    left: 60%;
+}
+
+.bedkitchen {
+    width: 50%;
+    margin: 0 0 73px 150px;
+}
+
+.content div h3 {
+    margin: 10px 0;
+    font-weight: normal;
+}
+
+.content div span {
+    color: rgb(19, 109, 109);
+    border-bottom: 3px solid rgb(19, 109, 109);
+}
+
+
+/* ///////MEDIA QUERIES/////// */
+
+@media (min-width: 768px){
+    .bedkitchen {
+        width: 50%;
+        margin: 0 0 30px 50px;
+        height: 320px;
+    }
+
+    .livingbath {
+        height: 320px;
+    }
+
+    .bedkitchen h1 {
+        font-size: 20px;
+    }
+
+    .livingbath h1 {
+        font-size: 20px;
+    }
+
+    .img1, .img2 {
+        height: 350px;
+    }
+    
+    .content div h3 {
+        font-size: 15px;
+    }
+}
+
+
+@media (max-width: 426px){
+    .section5 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .img1{
+        width: 100%;
+    }
+
+    .img2{
+        width: 100%;
+        left: 0%;
+    }
+
+    .livingbath, .bedkitchen {
+        width: 100%;
+        left: 0%;
+        z-index: 99;
+        margin-left: 10px;
+    }
+}
